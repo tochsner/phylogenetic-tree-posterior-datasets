@@ -1,0 +1,16 @@
+name = "PDUtils"
+uuid = "0c75adaf-c91e-49f9-8a50-fd3488103072"
+authors = ["Tobia Ochsner <tobia.ochsner@hotmail.com>"]
+version = "0.1.0"
+
+[deps]
+ArgParse = "c7e460c6-2fb9-53a9-8c5b-16f535851c63"
+Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
+PackageCompiler = "9b87118b-4619-50d2-8e1e-99f35a4d4d9d"
+REPL = "3fa0cd96-eef1-5676-8a61-b3b8758bbffb"
+
+[compat]
+ArgParse = "1.2.0"
+Logging = "1.11.0"
+PackageCompiler = "2.2.0"
+REPL = "1.11.0"
