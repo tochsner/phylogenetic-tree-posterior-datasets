@@ -22,3 +22,9 @@ export PATH=~/.local/bin:$PATH
 # Test if Git LFS is installed correctly
 git lfs version
 ```
+
+4. Now you're ready to clone this repo:
+
+```bash
+git clone https://github.com/tochsner/phylogenetic-tree-posterior-datasets.git
+```
