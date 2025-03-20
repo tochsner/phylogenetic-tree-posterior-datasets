@@ -1,10 +1,10 @@
-# Installation of Git Large File Storage (LFS) on NESI or other HPC clusters
+# Installation of Git Large File Storage (LFS) on NeSI or other HPC clusters
 
 1. Check if Git LFS is already installed by running `git lfs version`.
 
-2. Go to the [releases page of the Git LFS repository](https://github.com/git-lfs/git-lfs/releases) and copy the download link of the lastest `git-lfs-linux-amd64-vx.x.x.tar.gz` file.
+2. Go to the [releases page of the Git LFS repository](https://github.com/git-lfs/git-lfs/releases) and determine the version of the latest release vX.X.X.
 
-3. Equipped with the download link, run the following commands in your home directory (adjust the version numbers accordingly):
+3. Equipped with the version, run the following commands in your home directory (adjust the version numbers accordingly):
 
 ```bash
 # Download the tar.gz file and extract it

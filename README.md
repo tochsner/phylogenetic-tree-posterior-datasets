@@ -4,7 +4,7 @@ This repository contains a collection of published phylogenetic datasets. The co
 
 ## 🚀 Getting started
 
-This repository uses Git Large File Storage (LFS) to allow versioning of the potentially large tree files and storing them on GitHub. Install Git LFS first by following the [instructions here](https://git-lfs.com/) or the [Nesi-specific instructions](git_lfs_nesi.md). Afterwards, you can clone this repository like any other Git repository.
+This repository uses Git Large File Storage (LFS) to allow versioning of the potentially large tree files and storing them on GitHub. Install Git LFS first by following the [official instructions](https://git-lfs.com/) or the [instructions for NeSI or other HPC](git_lfs_nesi.md). Afterwards, you can clone this repository like any other Git repository.
 
 If you're only interested in a specific dataset, you can also download it directly from GitHub.
 
