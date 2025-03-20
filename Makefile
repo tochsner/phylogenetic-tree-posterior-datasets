@@ -4,3 +4,6 @@ build:
 
 install:
 	unzip PDUtils.zip -d PDUtilsCompiled
+
+citations:
+	awk 1 datasets/**/*.bib >> all_citations.txt 

@@ -10,7 +10,7 @@ If you're only interested in a specific dataset, you can also download it direct
 
 ## 🔗 Citation
 
-If you use any of the datasets in this repository, please cite the corresponding papers.
+If you use any of the datasets in this repository, please cite the corresponding papers. Every dataset has a `citation.bib` file in its folder. You can run `make citations` to generate a file with all citations.
 
 ## 🌴 How to add a new dataset
 
