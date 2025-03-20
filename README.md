@@ -1,6 +1,6 @@
 # Phylogenetics Datasets
 
-This repository contains a collection of published phylogenetic datasets. The collections focuses on posterior trees obtained using Bayesian MCMC methods like BEAST2, MrBayes or RevBayes. Having these datasets in a single place makes it easier for method developers to validate their methods on a wide range of real-word datasets.
+This repository contains a collection of published phylogenetic datasets. We focus on posterior trees obtained using Bayesian MCMC methods like BEAST2, MrBayes or RevBayes. Having these datasets in a single place makes it easier for method developers to validate their methods on a wide range of real-word datasets.
 
 ## 🚀 Getting started
 
