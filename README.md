@@ -16,7 +16,7 @@ If you use any of the datasets in this repository, please cite the corresponding
 
 Everyone is welcome to add new datasets to the collection. Follow these steps to add a new dataset:
 
-1. Fork this repository.
+1. Create a new branch for your changes (`git checkout -b my-new-dataset`).
 
 2. Add a new folder in the `datasets` folder with the name of the study the dataset belongs to.
 
@@ -50,7 +50,7 @@ Everyone is welcome to add new datasets to the collection. Follow these steps to
 <If applicable, add any notes additional notes here>
 ```
 
-7. Commit and push your changes to your forked repository. Then, create a pull request to the main repository.
+7. Commit and push your changes. Then, create a pull request to the main branch.
 
 ## 📊 Compute dataset statistics (WIP)
 
