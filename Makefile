@@ -7,3 +7,5 @@ install:
 
 citations:
 	awk 1 datasets/**/*.bib >> all_citations.txt 
+
+.PHONY: build install citations
