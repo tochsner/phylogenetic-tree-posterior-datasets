@@ -6,6 +6,8 @@ This repository contains a collection of published phylogenetic datasets. The co
 
 This repository uses Git Large File Storage (LFS) to allow versioning of the potentially large tree files and storing them on GitHub. Install Git LFS first by following the [instructions here](https://git-lfs.com/) or the [Nesi-specific instructions](git_lfs_nesi.md). Afterwards, you can clone this repository like any other Git repository.
 
+If you're only interested in a specific dataset, you can also download it directly from GitHub.
+
 ## 🔗 Citation
 
 If you use any of the datasets in this repository, please cite the corresponding papers.
@@ -20,7 +22,11 @@ Everyone is welcome to add new datasets to the collection. Follow these steps to
 
 3. Copy the trees files into the newly created folder. Each file should be in the NEXUS format and contain the trees of a MCMC chain. Use the `.trees` extension and do not compress the files.
 
-4. Add a `README.md` file to the folder with the following content:
+4. Add a `citation.bib` file to the folder with the bibtex entry of the study.
+
+5. For each added file, add a row to the `datasets/datasets.csv` file. Use the steps below to compute statistics like the tree ESS and entropy.
+
+6. (Optional) Add a `README.md` file to the folder with the following content:
 
 ```{markdown}
 # <Title of the study>
@@ -28,6 +34,10 @@ Everyone is welcome to add new datasets to the collection. Follow these steps to
 ## Abstract
 
 <Insert the abstract of the study here>
+
+## DOI
+
+<Insert the DOI of the study here and if available, the DOI of the dataset>
 
 ## Files
 
@@ -38,17 +48,11 @@ Everyone is welcome to add new datasets to the collection. Follow these steps to
 ## Notes
 
 <If applicable, add any notes additional notes here>
-
-## Citation
-
-<Insert a bibtex entry here> 
 ```
 
-5. For each added file, add a row to the `datasets/datasets.csv` file. Use the steps below to compute information like the tree ESS and entropy.
+7. Commit and push your changes to your forked repository. Then, create a pull request to the main repository.
 
-6. Commit and push your changes to your forked repository. Then, create a pull request to the main repository.
-
-## 📊 Compute dataset statistics
+## 📊 Compute dataset statistics (WIP)
 
 This repository contains a package that can be used to compute the tree ESS and entropy of a dataset. To use the package, run the following command in the root directory of the repository:
 
