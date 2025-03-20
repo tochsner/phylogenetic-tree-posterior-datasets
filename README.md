@@ -20,7 +20,7 @@ Everyone is welcome to add new datasets to the collection. Follow these steps to
 
 2. Add a new folder in the `datasets` folder with the name of the study the dataset belongs to.
 
-3. Copy the trees files into the newly created folder. Each file should be in the NEXUS format and contain the trees of a MCMC chain. Use the `.trees` extension and do not compress the files.
+3. Copy the trees files into the newly created folder. Each file should contain the trees of a MCMC chain and be in the NEXUS format (you can use a tool like [gotree](https://github.com/evolbioinfo/gotree) to convert other file formats). Use the `.trees` extension and do not compress the files.
 
 4. Add a `citation.bib` file to the folder with the bibtex entry of the study.
 
