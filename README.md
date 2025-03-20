@@ -62,3 +62,12 @@ The script will output the tree ESS and entropy of the dataset.
 ## 👩‍💻 Dev Notes
 
 In order to compile the Julia package, run `make build` in the root directory of the repository. This will create a `PDUtils.zip` file in the root directory of the repository containing the compiled package.
+
+When you want to work on the repo without having to download all the datasets every time, you can use a `.lfsconfig` file like this:
+
+```bash
+[lfs]
+    fetchexclude = "datasets/*"
+```
+
+This will tell Git LFS to not download any files in the `datasets` folder.
