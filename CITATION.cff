@@ -1,0 +1,7 @@
+cff-version: 1.2.0
+message: "If you use use this collection of datasets. please cite it as below. Don't forget to also cite the original sources for each dataset used."
+authors:
+  - family-names: Ochsner
+    given-names: Tobia
+title: "Phylogenetic Posterior Tree Datasets"
+date-released: 2025-03-23
