@@ -2,11 +2,11 @@
 
 This repository contains a collection of published phylogenetic datasets. We focus on posterior trees obtained using Bayesian MCMC methods like BEAST2, MrBayes or RevBayes. Having these datasets in a single place makes it easier for method developers to validate their methods on a wide range of real-word datasets.
 
-## 🌴 How to download the datasets
+## 🚀 How to download the datasets
 
 ### How to download all datasets
 
-As we use Git Large File Storage (LFS) to store the tree files, you can download all datasets by simply cloning this repository:
+This repository uses Git Large File Storage (LFS) to allow versioning of the potentially large tree files and storing them on GitHub. Thus, you can download all datasets by simply cloning this repository:
 
 1. Make sure that you have Git LFS installed by running `git lfs version`. Follow the [official instructions](https://git-lfs.com/) or the [instructions for NeSI or other HPC](git_lfs_nesi.md) to install Git LFS.
 
@@ -25,12 +25,6 @@ wget <download-link>
 ```
 
 The download link is available in the [datasets overview csv](datasets/datasets.csv).
-
-## 🚀 Getting started
-
-This repository uses Git Large File Storage (LFS) to allow versioning of the potentially large tree files and storing them on GitHub. Install Git LFS first by following the [official instructions](https://git-lfs.com/) or the [instructions for NeSI or other HPC](git_lfs_nesi.md). Afterwards, you can clone this repository like any other Git repository.
-
-If you're only interested in a specific dataset, you can also download it directly from GitHub.
 
 ## 🔗 Citation
 
